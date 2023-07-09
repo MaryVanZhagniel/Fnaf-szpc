@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Five Nights At Freddy's</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="./src/FNAFGame/fnaf.logo.png" alt="logo FIVE NIGHTS AT FREDDY'S" srcset="">
+    </header>
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h2 class="titulo" style="font-family:Orbitron">Selecione um personagem</h2>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="freddy" data-name="Freddy" data-description="Freddy é um Urso Animatronico criado pela Fazbear Entertaiment para ser o vocalista na Freddy Fazbear's Pizza e é o antagonista principal de Five Nights At Freddy's.">
+                    <img src="./src/FNAFGame/card-freddy.png" alt="Personagem Freddy">
+                </li>
+                <li class="personagem" id="chica" data-name="Chica"
+                    data-description="Chica é uma dos quatro principais antagonistas do jogo Five Nights at Freddy's. Ela  alegra as crianças durante o dia na Pizzaria Freddy Fazbear, junto com Freddy Fazbear e Bonnie.">
+                    <img src="./src/FNAFGame/card-chica.png" alt="Personagem Chica">
+                </li>
+                <li class="personagem" id="bonnie" data-name="Bonnie"
+                    data-description="Bonnie é um dos quatro antagonistas em Five Nights at Freddy's. Assim como Freddy e Chica, Bonnie alegra as crianças durante o dia na Pizzaria Freddy Fazbear.">
+                    <img src="./src/FNAFGame/card-bonnie.png" alt="Personagem Bonnie">
+                </li>
+                <li class="personagem" id="foxy" data-name="Foxy"
+                    data-description="Foxy é um antagonista de Five Nights at Freddy's.Ele fica atrás da cortina da Enseada do Pirata, fazendo shows piratas para as crianças da pizzaria.">
+                    <img src="./src/FNAFGame/card-foxy.png" alt="Personagem Foxy">
+                </li>
+                <li class="personagem" id="golden" data-name="Golden Freddy"
+                    data-description="Golden Freddy é um dos cinco principais antagonistas e um animatrônico secreto em Five Nights at Freddy's.">
+                    <img src="./src/FNAFGame/card-gfreddy.png" alt="Personagem Golden Freddy">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/FNAFGame/body-freddy.png" alt="personagem Selecionado">
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">freddy</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Freddy é um Urso Animatronico criado pela
+                    Fazbear Entertaiment
+                    para
+                    ser o vocalista na Freddy Fazbear's Pizza e
+                    é o antagonista principal de Five Nights At Freddy's.</p>
+            </div>
+        </section>
+
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
